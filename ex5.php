@@ -11,16 +11,15 @@
     <?php
 //Faça um Programa que peça dois números e imprima o maior deles.
 
-echo "<br>";
-  $nota = 9;
-  if($nota >= 7){
-   echo "5";
-  }else if($nota < 7){
-   echo " 10";
-  }else if($nota >= 10){
-   echo "você não inseriu nada";
-  }
 
-    ?>
+$valor1 = 150;
+$valor2 = 200;
+if($valor1 > $valor2 && $valor1 > $valor2){
+echo "valor maior é o primeiro";
+}else if(($valor2 > $valor1 && $valor2 > $valor1)) {
+echo "valor maior é o segundo";
+}else{
+}
+?>
 </body>
 </html>

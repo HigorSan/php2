@@ -8,7 +8,9 @@
 </head>
 <body>
 <h1>Exercicio3</h1>
-        <?php
+<?php
+//Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+
 echo "<br><br>";
 $sexo = 2;
 switch ($sexo) {

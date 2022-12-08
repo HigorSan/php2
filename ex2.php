@@ -9,7 +9,8 @@
 <body>
     <h1>Exercício 2</h1>
     <?php
-    
+//Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+
 echo "<br><br>";
 $dia = 6;
 switch ($dia) {
